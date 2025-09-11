@@ -21,6 +21,9 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: "standalone",
+  basePath: "/PS70-Fall",
+  reactStrictMode: true,
 }
 
 mergeConfig(nextConfig, userConfig)
