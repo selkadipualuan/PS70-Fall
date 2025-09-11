@@ -22,7 +22,6 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
   output: "standalone",
-  basePath: "/PS70-Fall",
   reactStrictMode: true,
 }
 
