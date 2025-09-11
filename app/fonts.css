@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Asterone Regular";
+  src: url("/fonts/AsteroneRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monument';
+  src: url('/fonts/MonumentExtended-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DidotHTF-L06-Light';
+  src: url('/fonts/Didot HTF-L06-Light Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
