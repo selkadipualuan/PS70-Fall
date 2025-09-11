@@ -28,10 +28,10 @@ export default function WeekContent({ week }: { week: number }) {
         <div className="space-y-8">
           <div className="relative group overflow-hidden rounded-lg">
             <Image
-              src={week === 1 ? "/weekonetitleimage.jpg" : `/placeholder.svg?height=300&width=400&text=WEEK+${week}+IMAGE`}
+              src={week === 1 ? "/idea-1.png" : `/placeholder.svg?height=300&width=400&text=WEEK+${week}+IMAGE`}
               alt={`Week ${week} Assignment`}
-              width={400}
-              height={300}
+              width={300}
+              height={200}
               className="w-full object-cover transition-transform duration-300 group-hover:scale-105 duotone-effect"
             />
           </div>
@@ -41,19 +41,16 @@ export default function WeekContent({ week }: { week: number }) {
               {week === 1 ? "FINAL PROJECT PROPOSALS" : "ASSIGNMENT TITLE"}
             </h3>
             <p className="text-[#e0e0e0] leading-relaxed text-lg">
-              For this assignment, I created three final project proposals that explore different applications of 3D design, electronics, and microcontroller programming.
+              For this assignment, I created three final project proposals - I hope they are feasible!
             </p>
           </div>
 
           <div>
-            <h4 className="text-[1.26rem] mb-3 text-[#f5f5f5] font-['Monument']">
-              {week === 1 ? "PROJECT TITLES" : "KEY TAKEAWAYS"}
-            </h4>
             <ul className="space-y-3">
               {[
-                "WEB CONTROLLED KINETIC SCULPTURE",
-                "IOT-CONTROLLED MINI GREENHOUSE",
-                "VISION MODEL-POWERED BINOCULARS"
+                "Stress Ball Robot",
+                "Sound Garden",
+                "Clap for Candy"
               ].map((point, i) => (
                 <motion.li
                   key={i}
