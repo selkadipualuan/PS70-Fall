@@ -28,7 +28,7 @@ export default function AboutMe() {
         <div className="space-y-8">
           <div className="relative group overflow-hidden rounded-lg">
             <Image
-              src="/Profile-Pic.jpg"
+              src="/Profile-Pic.JPG"
               alt="Profile Image"
               width={300}
               height={450}
