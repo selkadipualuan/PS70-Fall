@@ -33,7 +33,7 @@ export default function Week2Page(): JSX.Element {
             able to show off my newfound breadboard skills.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
-            <Image src="/Week-2/Week2-Lucy.jpeg" alt="Lucy working in lab" width={600} height={400} className="rounded-lg" />
+            <Image src="/Week-2/Week2-Lucy.png" alt="Lucy working in lab" width={600} height={400} className="rounded-lg" />
             <Image src="/Week-2/Week2-breadboard.jpeg" alt="Breadboard setup" width={600} height={400} className="rounded-lg" />
           </div>
         </section>
