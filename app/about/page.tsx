@@ -32,7 +32,7 @@ export default function AboutPage() {
         >
           <div className="relative group overflow-hidden rounded-lg">
             <Image
-              src="/alexandme.jpg"
+              src="/alexandme.JPG"
               alt="Profile Image" 
               width={400}
               height={300}

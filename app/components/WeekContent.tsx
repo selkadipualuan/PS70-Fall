@@ -28,10 +28,10 @@ export default function WeekContent({ week }: { week: number }) {
         <div className="space-y-8">
           <div className="relative group overflow-hidden rounded-lg">
             <Image
-              src={week === 1 ? "/Idea-1.png" : `/placeholder.svg?height=300&width=400&text=WEEK+${week}+IMAGE`}
+              src={week === 1 ? "/Idea-1.png" : `/placeholder.svg?height=150&width=200&text=WEEK+${week}+IMAGE`}
               alt={`Week ${week} Assignment`}
-              width={300}
-              height={200}
+              width={100}
+              height={100}
               className="w-full object-cover transition-transform duration-300 group-hover:scale-105 duotone-effect"
             />
           </div>
